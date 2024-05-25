@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GizmoHub</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="GizmoHub.png" alt="GizmoHub Logo">
+                <h1>GizmoHub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to GizmoHub</h2>
+            <p>Your ultimate destination for the latest gadgets and accessories</p>
+            <br>
+            <a href="shop.html" class="btn-primary">Shop Now</a>
+            <a href="about.html" class="btn-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="Apple_Phone.png" alt="Iphone 15 Black Titanium">
+                    <h3>Iphone 15 Black Titanium</h3>
+                    <p>₱ 108,990.00</p>
+                    <input type="number" class="quantity-input" value="1" min="1">
+                    <button class="add-to-cart" data-product="Iphone 15 Black Titanium" data-price="108990">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Lenovo.png" alt="Lenovo LP40 Bluetooth Earphones">
+                    <h3>Lenovo LP40 Bluetooth Earphones</h3>
+                    <p>₱ 375.00</p>
+                    <input type="number" class="quantity-input" value="1" min="1">
+                    <button class="add-to-cart" data-product="Lenovo LP40 Bluetooth Earphones" data-price="375">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="headset.png" alt="RAKK HUNI Wired White Gaming Headset">
+                    <h3>RAKK HUNI Wired White Gaming Headset</h3>
+                    <p>₱ 695.00</p>
+                    <input type="number" class="quantity-input" value="1" min="1">
+                    <button class="add-to-cart" data-product="RAKK HUNI Wired White Gaming Headset" data-price="695">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="keyboard.png" alt="Womier M87 PRO gaming keyboard">
+                    <h3>Womier M87 PRO gaming keyboard</h3>
+                    <p>₱ 4,882.67</p>
+                    <input type="number" class="quantity-input" value="1" min="1">
+                    <button class="add-to-cart" data-product="Womier M87 PRO gaming keyboard" data-price="4882.67">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GizmoHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
